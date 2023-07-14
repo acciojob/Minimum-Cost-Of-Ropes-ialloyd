@@ -28,11 +28,11 @@ function calculateMinCost() {
 		let a=new_arr.shift();
 		let b=new_arr.shift();
 
-		a=a+b;
+		let c=a+b
 
-		res.push(a);
+		res.push(c);
 
-		new_arr.push(a);
+		new_arr.push(c);
 
 		
 	}
