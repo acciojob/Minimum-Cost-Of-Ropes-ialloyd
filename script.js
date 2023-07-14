@@ -14,6 +14,8 @@ function calculateMinCost() {
 		
 	}
 
+	let res=[]
+
 	while(true){
 
 		if(new_arr.length==1){
@@ -28,14 +30,23 @@ function calculateMinCost() {
 
 		a=a+b;
 
+		res.push(a);
+
 		new_arr.push(a);
 
 		
 	}
+
+	let sum=0;
+
+	for(let e of res){
+
+		sum=sum+e;
+	}
 	
 
 	
-	document.getElementById('result').innerHTML =new_arr[0]
+	document.getElementById('result').innerHTML =sum
   
   
   
