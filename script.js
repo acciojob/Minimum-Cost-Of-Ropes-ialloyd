@@ -31,13 +31,9 @@ function calculateMinCost() {
 		new_arr.push(a);
 
 		
-		
 	}
 	
-	
 
-	
-	
 	
 	document.getElementById('result').innerHTML =new_arr[0]
   
