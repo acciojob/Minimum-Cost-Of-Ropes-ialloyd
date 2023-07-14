@@ -16,7 +16,21 @@ function calculateMinCost() {
 
 	while(true){
 
+		if(new_arr.length==1){
 
+			break;
+		}
+
+		new_arr.sort()
+
+		let a=new_arr.shift();
+		let b=new_arr.shift();
+
+		a=a+b;
+
+		new_arr.push(a);
+
+		
 		
 	}
 	
@@ -25,7 +39,7 @@ function calculateMinCost() {
 	
 	
 	
-	document.getElementById('result').innerHTML =typeof new_arr[0]
+	document.getElementById('result').innerHTML =new_arr[0]
   
   
   
