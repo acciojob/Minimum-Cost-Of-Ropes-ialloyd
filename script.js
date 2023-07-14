@@ -23,7 +23,7 @@ function calculateMinCost() {
 			break;
 		}
 
-		new_arr.sort()
+		new_arr.sort((a,b)=> a-b)
 
 		let a=new_arr.shift();
 		let b=new_arr.shift();
